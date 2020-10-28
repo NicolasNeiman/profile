@@ -51,7 +51,12 @@ a {
 a:hover {
   color: #5b8b5b;
 }
-
+.red {
+  color: #cb1542;
+}
+.grey{
+  color: #838383;
+}
 .container {
   margin: 0 auto; /* This automatically sets left/right margins */
   text-align: center;
