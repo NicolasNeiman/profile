@@ -1,0 +1,74 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+  font-family: 'Unna', serif;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  color: #3797a4;
+  font-size: 70px;
+  line-height: 60px;
+  font-weight: 200;
+}
+h2 {
+  color: #8bcdcd;
+  font-size: 30px;
+  line-height: 45 px;
+}
+a {
+  text-decoration: none;
+  color: #cee397;
+}
+
+a:hover {
+  color: #5b8b5b;
+}
+
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+.card{
+  box-shadow: 0px 0px 27px #cbcbcb;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.profile-pic {
+  display: inline;
+  height: 160px;
+  border-radius: 50%
+}
